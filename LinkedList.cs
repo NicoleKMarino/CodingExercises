@@ -17,7 +17,7 @@ namespace LinkedListExample {
             if (next == null) {
                 next = new Node (input);
             } else {
-                next.AddToEndOfList(input);
+                next.AddToEndOfList (input);
             }
         }
 
@@ -68,26 +68,26 @@ namespace LinkedListExample {
             }
         }
 
-        public LinkedList sortList(LinkedList unsortedList){
+        public LinkedList sortList (LinkedList unsortedList) {
 
-        for(int i = 0; i < unsortedList.length; i++){
+            for (int i = 0; i < unsortedList.length; i++) {
 
-        }
+            }
         }
     }
 
     public class Program {
         public static void Main () {
-            LinkedList exampleList = new LinkedList();
-            exampleList.AddToEndOfList(1);
-            exampleList.AddToEndOfList(2);
-            exampleList.AddToEndOfList(3);
-            exampleList.AddToEndOfList(4);
-			exampleList.AddToStartOfList(5);
-			exampleList.AddToStartOfList(6);
-			exampleList.AddToStartOfList(7);
-			exampleList.AddToStartOfList(8);
-            exampleList.PrintList();
+            LinkedList exampleList = new LinkedList ();
+            exampleList.AddToEndOfList (1);
+            exampleList.AddToEndOfList (2);
+            exampleList.AddToEndOfList (3);
+            exampleList.AddToEndOfList (4);
+            exampleList.AddToStartOfList (5);
+            exampleList.AddToStartOfList (6);
+            exampleList.AddToStartOfList (7);
+            exampleList.AddToStartOfList (8);
+            exampleList.PrintList ();
         }
     }
 }
